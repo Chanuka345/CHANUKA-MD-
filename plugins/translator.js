@@ -26,7 +26,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const translation = response.data.responseData.translatedText;
 
         const translationMessage = `
-🌍 *`ＣＨＡＮＵＫＡ-ＭＤ TRANSLATION`* 🌍
+🌍 *ＣＨＡＮＵＫＡ-ＭＤ TRANSLATION* 🌍
 
 🔤 *Original*: ${textToTranslate}
 
