@@ -1,22 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
-
 
 const axios = require('axios');
 const config = require('../config')
@@ -45,7 +26,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const translation = response.data.responseData.translatedText;
 
         const translationMessage = `
-🌍 *SUBZERO TRANSLATION* 🌍
+🌍 *`ＣＨＡＮＵＫＡ-ＭＤ TRANSLATION`* 🌍
 
 🔤 *Original*: ${textToTranslate}
 
@@ -53,7 +34,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-*SUBZERO CREATION*`;
+*ＣＨＡＮＵＫＡ-ＭＤ CREATION*`;
 
         return reply(translationMessage);
     } catch (e) {
