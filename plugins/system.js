@@ -1,22 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
-
 
 
 const config = require('../config')
@@ -35,7 +16,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 let status = `*▢┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉▢*
 
-> *SUBZERO UPTIME SYSTEM*
+> *ＣＨＡＮＵＫＡ-ＭＤ UPTIME SYSTEM*
 
 *UPTIME:➠*  ${runtime(process.uptime())}
 
@@ -43,7 +24,7 @@ let status = `*▢┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉▢*
 
 *HOSTNAME:➠* ${os.hostname()}
 
-*OWNER:➠* *MR FRANK*
+*OWNER:➠* *𝙈𝙍 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘼𝘿𝙐𝙎𝙃𝘼𝙉*
 
 *▢┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉▢*
 `
