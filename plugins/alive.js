@@ -31,11 +31,11 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '*⚡️DARK_ADAM-MD⚡️*'  }, { quoted: mek } )
+let ping = await conn.sendMessage(from , { text: '*⚡️ＣＨＡＮＵＫＡ-ＭＤ⚡️*'  }, { quoted: mek } )
 let final = new Date().getTime()
 await conn.sendMessage(from , { text: '*▆*'  }, { quoted: mek } )
 await conn.sendMessage(from , { text: '*▆▆▆*'  }, { quoted: mek } )
-await conn.sendMessage(from , { text: '*▆▆-𝚋𝚘𝚘𝚖-▆▆*'  }, { quoted: mek } )
+await conn.sendMessage(from , { text: '*▆▆▆▆*'  }, { quoted: mek } )
 return await conn.edit(ping, '*Pong*\n *' + (final - inital) + ' ms* ' )
 
 } catch (e) {
@@ -46,7 +46,7 @@ console.log(e)
 
 //===========menu========
 cmd({
-    pattern: "menu2",
+    pattern: "allmenu",
     desc: "To get the menu.",
     react: "📜",
     category: "main",
@@ -143,9 +143,9 @@ let madeMenu = `
  ${menu.tools}
 ╰───────────●●►
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ DARK_ADAM-MD*`
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*`
 
-return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/m9rojt.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://pomf2.lain.la/f/p24bk9zh.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`𝔼𝕣𝕣𝕣𝕠𝕣`)
