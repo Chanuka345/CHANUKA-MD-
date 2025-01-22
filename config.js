@@ -12,8 +12,8 @@ SESSION_ID: process.env.SESSION_ID || "3ro2ARZL#5iQTaJFr2qrH5768W1fw0snylkFMfX8w
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //TRUE OR FALSE
 MODE: process.env.MODE || "public",  // PRIVATE OR PUBLIC
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://pomf2.lain.la/f/p24bk9zh.jpg", // DO NOT CHANGE
 ALIVE_MSG: process.env.ALIVE_MSG || "ᴄʜᴀɴᴜᴋᴀ-ᴍᴅ ɪs ᴀʟɪᴠᴇ. ᴋᴇᴇᴘ sᴜᴘᴘᴏʀᴛɪɴɢ *ᴘᴏᴡᴇʀ Cᴏᴅᴇʀs❄️*\n\n> ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ-ᴍᴀᴅᴜꜱʜᴀɴ",
 ANTI_LINK: process.env.ANTI_LINK || "true",
