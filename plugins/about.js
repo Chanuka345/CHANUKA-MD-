@@ -1,20 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
 
 
 const config = require('../config');
@@ -24,7 +7,7 @@ const {cmd , commands} = require('../command')
 cmd({
     pattern: "about",
     alias: ["darrell"],
-    react: "🧠",
+    react: "🗺️",
     desc: "get owner dec",
     category: "main",
     filename: __filename
@@ -33,26 +16,23 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 let madeMenu = `━━━━━━━━━━━━━━━━━━━━━━━━
 
-*👋 HELLO ${pushname}*\n\n *I AM SUBZERO MD*\n\n
-I am  WhatsApp Based Multi Device Bot Created By Darrell Mucheri T from Zimbabwe.\nMy sole purpose is to remove the burden or cost of purchusing data bundle to download Songs, Apps, Videos & Movies by  using whatsapp  bundles.
+*👋 HELLO ${pushname}*\n\n *I AM ＣＨＡＮＵＫＡ-ＭＤ MD*\n\n
+I am  WhatsApp Based Multi Device Bot Created By 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘼𝘿𝙐𝙎𝙃𝘼𝙉.\nMy sole purpose is to remove the burden or cost of purchusing data bundle to download Songs, Apps, Videos & Movies by  using whatsapp  bundles.
 \n\n *For More Visit*: https://mrfrankinc.vercel.app/
 ━━━━━━━━━━━━━━━━━━━━━━━━
 
-> *SOURCE CODE* : https://github.com/mrfrank-ofc/SUBZERO-MD
 
-> *FOLLOW OWNER* :https://github.com/mrfrank-ofc/
+> *FOLLOW OWNER* :https://github.com/Madushanchanux
 
-> *OWNER'S WHATSAPP* : https://wa.me/18062212660/?text=SubZero+Fan+Here
+> *OWNER'S WHATSAPP channel* : https://whatsapp.com/channel/0029Vb35nfSDzgT59gD4SU11
 
-> *SUPPORT CHANNEL* : https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
+> *FOLLOW INSTAGRAM* :https://www.instagram.com/chanuka_madushan14/
 
-> *FOLLOW INSTAGRAM* :https://instagram.com/mrfrankofc/
+> *OWNER YOUTUBE CHANNEL* :https://youtube.com/@c2klegendchanuka.?si=dKvEkFkjzlXtylAT
 
-> *FOLLOW OWNER* :https://youtube.com/mrfr4nk/
-
- *RELEASE DATE* - *15 December 2024*
+ *RELEASE DATE* - *99 December 9999*
  
-> *MR FRANK OFC*
+> *𝙈𝙍_𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘼𝘿𝙐𝙎𝙃𝘼𝙉*
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 `
