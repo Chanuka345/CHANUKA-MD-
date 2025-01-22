@@ -1,23 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
-
-
 
 const config = require('../config')
 const {cmd , commands} = require('../command')
@@ -25,7 +5,7 @@ cmd({
 
     pattern: "menu3",
 
-    react: "🇿🇼",
+    react: "📟",
 
     alias: ["panel","list","commands"],
 
@@ -44,12 +24,12 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, send
 try{
 let madeMenu = `*◈⁠⁠⁠⁠▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭◈*
 
-*Makadii, I am SubZero Md*
+*hallo, I am ＣＨＡＮＵＫＡ-ＭＤ*
    *${pushname}*
      
 *◈⁠⁠⁠⁠▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭◈*
 
-*DEVELOPED BY ZERO CODERS👨🏻‍💻*
+*DEVELOPED BY ᴄʜᴀɴᴜᴋᴀ CODERS👨🏻‍💻*
 
 *✱━━━━━━━▢ © 2025 ▢━━━━━━✱*
 
@@ -170,10 +150,10 @@ let madeMenu = `*◈⁠⁠⁠⁠▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭◈
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-> *https://github.com/ZwSyntax/SUBZERO-MD*
+> *https://github.com/Madushanchanux/CHANUKA-MD-*
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-> *MADE IN ZIMBABWE*
+> *ᴘɪᴡᴇʀ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*
 
 ❒⁠⁠⁠⁠▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭❒
 `
