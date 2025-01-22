@@ -1,22 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
-
 
 
 const axios = require('axios');
@@ -40,14 +21,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        let repoInfo = `📁_*GITHUB REPOSITORY INFO BY MR FRANK*_📁\n\n`;
+        let repoInfo = `📁_*GITHUB REPOSITORY INFO BY ＣＨＡＮＵＫＡ-ＭＤ*_📁\n\n`;
         repoInfo += `📌 *ɴᴀᴍᴇ*: ${data.name}\n`;
         repoInfo += `🔗 *ᴜʀʟ*: ${data.html_url}\n`;
         repoInfo += `📝 *ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*: ${data.description}\n`;
         repoInfo += `⭐ *ꜱᴛᴀʀꜱ*: ${data.stargazers_count}\n`;
         repoInfo += `🍴 *ꜰᴏʀᴋꜱ*: ${data.forks_count}\n`;
         repoInfo += `\n`;
-        repoInfo += `*SUBZERO CREATION*\n`;
+        repoInfo += `*ＣＨＡＮＵＫＡ-ＭＤ CREATION*\n`;
 
         await conn.sendMessage(from, { text: repoInfo }, { quoted: mek });
     } catch (e) {
