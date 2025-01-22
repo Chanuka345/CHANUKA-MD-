@@ -1,18 +1,18 @@
 ---------
 
-### ❖  ＳＵＢＺＥＲＯ - ＭＤ - ＢＯＴ ❖
+### ❖  ＣＨＡＮＵＫＡ - ＭＤ - ＢＯＴ ❖
 
 🔰 **`A WhatsApp Multi Device Bot To Take Your WhatsApp To Another Level !`** 🔰
 
 ----------
-## CLICK <a href="https://github.com/mrfrank-ofc/SUBZERO-MD/issues/2#issue-2744137419">HERE IF YOU ARE NEW TO BOTS</a>
+## CLICK <a href="https://whatsapp.com/channel/0029Vb35nfSDzgT59gD4SU11">HERE join whatsapp chanel</a>
 
-<img src='https://i.postimg.cc/m2jtqrBC/Screenshot-20241216-090753-Video-Maker.jpg'/>
+<img src='https://pomf2.lain.la/f/p24bk9zh.jpg'/>
 
 -------
 
  <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=`ＳＵＢＺＥＲＯ+MD+W.A+BOT+BY+MR+FRANK`" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=`ＣＣＨＡＮＵＫＡ+ＭＤ+W.A+BOT+BY+MR+FRANK`" alt="">
 
 <br>
 
@@ -20,16 +20,16 @@
 
 <p align="center">
 <a href="https://github.com/mrfrank-ofc/"><img title="Followers" src="https://img.shields.io/github/followers/mrfrank-ofc?color=blue&style=flat-square"></a>
-<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mrfrank-ofc/SUBZERO-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mrfrank-ofc/SUBZERO-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/mrfrank-ofc/SUBZERO-MD?style=flat-square&color=blue"></a>
-<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/mrfrank-ofc/CHANUKA-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mrfrank-ofc/CHANUKA-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/mrfrank-ofc/CHANUKA-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mrfrank-ofc/CHANUKA-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/mrfrank-ofc/CHANUKA-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/mrfrank-ofc/CHANUKA-MD?style=flat-square&color=blue"></a>
+<a href="https://github.com/mrfrank-ofc/CHANUKA-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
 </p>
 
 -----------
-<div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" /><br>SUBZERO-MD</div>
+<div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" /><br>CHANUKA-MD</div>
 
 ------------
 
@@ -94,45 +94,7 @@ jobs:
 
 
  
-🥂 `THIS BOT IS CREATED TO DOWNLOAD'S AND FIND VARIOUS TYPES THINGS QUICKLY **EXAMPLE** LOGO, PHOTO, STICKERS, VIDEOS, MOVIES, ADULT, AND MANY MORE FEATURES BY USING THIS BOT™ THIS BOT IS CREATED TO USING` 🥂 **[Baileys](https://github.com/WhiskeySockets/Baileys)**
 
-------------------
-
-### <br> ❖ FOR SUPPORT ❖
-
-**`➩ HII DEARS FRIENDS IF YOU WANT ANY HELP SO YOU CAN CONTACT↘︎ WITH ME WIA WHATSAPP ITS ME MR FRANK ࿐➺`**
-
--------
-
-<p align="center">
-  <a href="https://wa.me/+263719647303?text=*ʜɪɪ+Mr Frank+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ʀᴇᴘᴏ!!*" target="_blank">
-    <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
------------    
-
-`🚀 IF YOU WANT MORE ABOUT SUBZERO-MDWHATSAPP BOT :-NEW UPDATED NEW CMDS SO JOIN OUR WHATSAPP CHANNEL FOR MORE INFORMATION CLICK THIS RED BUTTON 🔳 AND JOIN THE GROUP 🚀`
-
----------
-
-<a href="https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ᴡʜᴀᴛsᴀᴘᴘ%20ᴄʜᴀɴɴᴇʟ-red" alt="🔰 ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
-
------------
-
-`🚀 IF YOU WANT MORE ABOUT SUBZERO-MDWHATSAPP BOT :-NEW UPDATED NEW CMDS SO SUBSCRIBE OUR YOUTUBE CHANNEL FOR MORE INFORMATION CLICK THIS BLUE BUTTON 🔳 AND JOIN THE YOUTUBE CHANNEL 🚀`
-
-----------
-## CREATE TALDROVE ACCOUNT
-<a href="https://host.talkdrove.com/auth/signup?ref=9535F15A"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20HOST.TALKDROVE%20FREE%20ACCOUNT%20HERE-blue" alt="hosttaldrove" width="300"></a>
------------
-
-## DEPLOY ON TALKDROVE
-
-<a href="https://host.talkdrove.com/share-bot/66"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20HOST.TALKDROVE%20FREE%20SUBZERO%20DEPLOY-blue" alt="hosttaldrove DEPLOY" width="300"></a>
----------
-
-<a href="https://youtube.com/@mrf4nk?si=F1IIc1As0gu3ijqk"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ʏᴏᴜᴛᴜʙᴇ%20ᴄʜᴀɴɴᴇʟ-blue" alt="🔰 ᴊᴏɪɴ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
-
---------------
  
 ### <br>   ❖ DEPLOY_HEROKU ❖
 
@@ -154,34 +116,8 @@ jobs:
 
 --------------
 
-### <br>   ❖ DEPLOY_KOYEB ❖
 
-`🚀 IF YOU HAVE YOUR KOYEB ACCOUNT SO YOU CAN DEPLOY SUBZERO-MD ON KOYEB WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON 🚀`
 
----------
-
-<a href='https://app.koyeb.com/auth/signin' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-KOYEB-blue?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
-
-------------
-
-### <br>  ❖ DEPLOY_RAILWAY ❖
-
-`🚀 IF YOU HAVE YOUR RAILWAY ACCOUNT SO YOU CAN DEPLOY SUBZERO-MD ON RAILWAY WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON 🚀`
-
---------
-
-<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RAILWAY-h?color=black&style=for-the-badge&logo=railway'/></a></p>
-
----------------
-
-### <br> ❖ MORE DEPLOY METHOD ❖
-
---------
-### <br>   ❖ DEPLOY_GLITCH ❖
-
-<a href='https://glitch.com/signup' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/GLITCH-h?color=pink&style=for-the-badge&logo=glitch'/></a></p>
-
---------
 
 ### <br>   ❖ DEPLOY_CODESPACE ❖
 
@@ -194,18 +130,8 @@ jobs:
 <a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RENDER-h?color=maroon&style=for-the-badge&logo=render'/></a></p>
 
 -----------
-`🚀 HOW TO DEPLOY SUBZERO-MD ON WORKFLOWS FREE GITHUB WATCH VIDEO 🚀`
 
--------------
 
-<p align="center">
-   <a href="https://youtu.be/RhSiiBnhz8U?si=ief1wJ1_Afg-gB4x"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="105">
-    </a>
-</p>
+Thanks For Using ＣＨＡＮＵＫＡ-ＭＤ
 
--------------
-
-Thanks For Using SubZero Md
-
-> Release Date : 15/12/2024 at 00.00
-Dᴏɴ’ᴛ Fᴏʀɢᴇᴛ ᴛᴏ ɢɪᴠᴇ ᴀ sᴛᴀʀ ⭐️ ᴀꜰᴛᴇʀ ꜰᴏʀᴋ
+> 💀💀💀
