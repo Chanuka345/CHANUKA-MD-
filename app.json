@@ -1,9 +1,9 @@
 {
-  "name": "❄️ SUBZERO MD ❄️",
+  "name": "❄️CHANUKA-MD❄️",
   "description": "BOT BY MR FRANK",
-  "logo": "https://i.postimg.cc/m2jtqrBC/Screenshot-20241216-090753-Video-Maker.jpg",
+  "logo": "https://pomf2.lain.la/f/u5svijwh.jpg",
   "keywords": ["bot"],
-  "success_url": "https://github.com/mrfrank-ofc/SUBZERO-MD",
+  "success_url": "https://github.com/mrfrank-ofc/CHANUKA-MD",
 
     "stack": "container",
   "env": {
@@ -16,13 +16,13 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://i.postimg.cc/m2jtqrBC/Screenshot-20241216-090753-Video-Maker.jpg"
+      "value": "https://pomf2.lain.la/f/u5svijwh.jpg"
     }, 
     
     "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": true,
-      "value": "HI DEAR SUBZERO ONLINE.!!♻️"
+      "value": "HI DEAR CHANUKA-MD ONLINE.!!♻️"
     },
     
     "PREFIX": {
