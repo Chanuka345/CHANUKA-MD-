@@ -1,26 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
-
-
-
-
-
 const {cmd , commands} = require('../command')
 const fg = require('api-dylux')
 const yts = require('yt-search')
@@ -40,10 +17,10 @@ const url = data.url
     
     
 let desc = `━━━━━━━━━━━━━━━━━━━━━━
-*❄️ ＳＵＢＺＥＲＯ - ＭＤ ❄️*
+*❄️ 𝘾𝙃𝘼𝙉𝙐𝙆𝘼 - 𝙈𝘿 ❄️*
 ━━━━━━━━━━━━━━━━━━━━━━
 
-> *sᴜʙᴢᴇʀᴏ ᴍᴅ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*
+> *ᴄʜᴀɴᴜᴋᴀ- ᴍᴅ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*
 
 ➥ *Title:* ${data.title} 
 ➥ *Duration:* ${data.timestamp} 
@@ -57,7 +34,7 @@ https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
 
  
 
-> *© sᴜʙᴢᴇʀᴏ ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ* 
+> *© ᴄʜᴀɴᴜᴋᴀ- ᴍᴅ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -96,7 +73,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁*•SUBZERO-MD VⵊDEO DOWNLOADⵊNG*⦁⫸ 
+⫷⦁*•ＣＨＡＮＵＫＡ-ＭＤ VⵊDEO DOWNLOADⵊNG*⦁⫸ 
 
 🎥 *VⵊDEO FOUND!* 
 
@@ -108,9 +85,9 @@ let desc = `
 
 🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
-> *SUBZERO-MD WHATSAPP BOT* 
+> *ＣＨＡＮＵＫＡ-ＭＤ WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ SUBZERO-MD*
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -122,7 +99,7 @@ let downloadUrl = down.dl_url
 
 //send video message
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kɢ Tᴇᴄʜ*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
