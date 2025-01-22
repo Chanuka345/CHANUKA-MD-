@@ -19,7 +19,7 @@ async (conn, mek, m, { from, q, reply }) => {
        const aiReply = `🤖 *AI Assistant*:
 ${response.data.response}
 
-*POWERED BY MR FRANK*`;
+*POWERED BY ＣＨＡＮＵＫＡ-ＭＤ*`;
 
        return reply(aiReply);
    } catch (e) {
