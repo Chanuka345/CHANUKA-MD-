@@ -4,7 +4,7 @@ const { cmd, commands } = require('../command')
 const yts = require('yt-search')
 
 cmd({ 
-	pattern: "song2",
+	pattern: "song3",
         react: "🎵",
 	desc: "Download songs", 
 	category: "download", 
@@ -17,7 +17,7 @@ const data = search.videos[0];
 const url = data.url; 
 const formatViews = views => views >= 1_000_000_000 ? `${(views / 1_000_000_000).toFixed(1)}B` : views >= 1_000_000 ? `${(views / 1_000_000).toFixed(1)}M` : views >= 1_000 ? `${(views / 1_000).toFixed(1)}K` : views.toString(); 
 let desc = `
-*🎶DARK_ADAM-MD🎵*
+*`🎶ＣＨＡＮＵＫＡ-ＭＤ🎵`*
 🤠 *Title:* ${data.title}
 👤 *chenel:* ${data.author.name}
 📝 *Description:* ${data.description}
@@ -30,7 +30,7 @@ const data1 = await fetchJson(`https://apitest1-f7dcf17bd59b.herokuapp.com/downl
 //========
 await conn.sendPresenceUpdate('recording', from); 
 await conn.sendMessage(from, { audio: { url: data1.result.dl_link }, mimetype: "audio/mpeg" }, { quoted: mek }); 
-await conn.sendMessage(from, { document: { url: data1.result.dl_link }, mimetype: "audio/mpeg", fileName: `${data.title}.mp3`, caption: "> DARK_ADAM-MD " }, { quoted: mek }); 
+await conn.sendMessage(from, { document: { url: data1.result.dl_link }, mimetype: "audio/mpeg", fileName: `${data.title}.mp3`, caption: "> ＣＨＡＮＵＫＡ-ＭＤ " }, { quoted: mek }); 
 await conn.sendMessage(from, { react: { text: '✔️', key: mek.key }})
 	    } catch (e) { 
 		    console.log(e); 
@@ -54,7 +54,7 @@ const data = search.videos[0];
 const url = data.url; 
 const formatViews = views => views >= 1_000_000_000 ? `${(views / 1_000_000_000).toFixed(1)}B` : views >= 1_000_000 ? `${(views / 1_000_000).toFixed(1)}M` : views >= 1_000 ? `${(views / 1_000).toFixed(1)}K` : views.toString(); 
 let dec = `
-*📽️DARK_ADAM-MD🎞️*
+*`📽️ＣＨＡＮＵＫＡ-ＭＤ🎞️`*
 🤠 *Title:* ${data.title}
 👤 *chenel:* ${data.author.name}
 📝 *Description:* ${data.description}
@@ -69,7 +69,7 @@ const durl = data1.result.download_url;
 //=========
 await conn.sendPresenceUpdate('recording', from); 
 await conn.sendMessage(from, { video: { url: durl}, mimetype: "video/mp4" }, { quoted: mek }); 
-await conn.sendMessage(from, { document: { url: durl}, mimetype: "video/mp4", fileName: `${data.title}.mp4`, caption: "> DARK_ADAM-MD " }, { quoted: mek }); 
+await conn.sendMessage(from, { document: { url: durl}, mimetype: "video/mp4", fileName: `${data.title}.mp4`, caption: "> ＣＨＡＮＵＫＡ-ＭＤ " }, { quoted: mek }); 
 await conn.sendMessage(from, { react: { text: '✔️', key: mek.key }})
 	    } catch (e) { 
 		    console.log(e); 
