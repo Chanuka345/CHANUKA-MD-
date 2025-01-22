@@ -96,7 +96,7 @@ cmd({
                                 },
                                 mimetype: 'video/mp4',
                                 fileName: `${movieDetails.title} - ${selectedLink.quality}.mp4`,
-                                caption: `${movieDetails.title}\nQuality: ${selectedLink.quality}\n\n> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐘𝐝 𝐵𝐲 - : DARK_ADAM-MD*`
+                                caption: `${movieDetails.title}\nQuality: ${selectedLink.quality}\n\n> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐘𝐝 𝐵𝐲 - : ＣＨＡＮＵＫＡ-ＭＤ*`
                             }, { quoted: pdReply });
 
                     await conn.sendMessage(from, { react: { text: '✅', key: mek.key } });
