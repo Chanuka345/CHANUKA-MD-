@@ -1,21 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
 
 const axios = require('axios');
                          const {cmd , commands} = require('../command');
@@ -24,7 +6,7 @@ const axios = require('axios');
                              pattern: "define",
                              desc: "📚 Get the definition of a word",
                              react: "🔍",
-                             category: "Auther",
+                             category: "other",
                              filename: __filename
                          },
                          async (conn, mek, m, { from, q, reply }) => {
@@ -47,7 +29,7 @@ const wordInfo = `
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-*MADE WITH ♥ SUBZERO MD*`;
+*MADE WITH ♥ ＣＨＡＮＵＫＡ-ＭＤ*`;
 
                                  return reply(wordInfo);
                              } catch (e) {
