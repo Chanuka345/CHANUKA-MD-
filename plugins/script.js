@@ -1,23 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
-
-
 
 
 const config = require('../config')
@@ -38,20 +18,20 @@ let repo =`
  
 > *Darrell Mucheri ( Mr Frank OFC )*
 
- *SUBZERO REPO:*
+ *ＣＨＡＮＵＫＡ-ＭＤ REPO:*
  
-> *https://github.com/mrfrank-ofc/SUBZERO-MD*
+> *https://github.com/Madushanchanux/CHANUKA-MD-*
 
  *SUPPORT GROUP:*
  
-> *https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D*
+> *https://whatsapp.com/channel/0029Vb35nfSDzgT59gD4SU11*
 
  *DEVELOPER NUMBER:*
  
-> *wa.me/+263718647303/*
+> *wa.me/+94741469245/*
 
 *⟣━━━━━━━━━━━━━━━━━━━⟢*
-> *CREATED BY MR FRANK*
+> *CREATED BY ＣＨＡＮＵＫＡ-ＭＤ*
 *⟣━━━━━━━━━━━━━━━━━━━⟢*
 `
 await conn.sendMessage(from, { text: repo ,
@@ -61,16 +41,16 @@ await conn.sendMessage(from, { text: repo ,
     forwardingScore: 999,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363321386877609@newsletter',
-      newsletterName: "SUBZERO MD",
+      newsletterJid: '1203633--21386877609@newsletter',
+      newsletterName: "ＣＨＡＮＵＫＡ-ＭＤ",
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'SUBZERO MD',
+title: 'ＣＨＡＮＵＫＡ-ＭＤ',
 body: `${pushname}`,
 mediaType: 1,
-sourceUrl: "https://github.com/mrfrank-ofc/SUBZERO-MD" ,
-thumbnailUrl: "https://i.postimg.cc/m2jtqrBC/Screenshot-20241216-090753-Video-Maker.jpg" ,
+sourceUrl: "https://github.com/Madushanchanux/CHANUKA-MD-" ,
+thumbnailUrl: "https://pomf2.lain.la/f/p24bk9zh.jpg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
