@@ -45,7 +45,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
  *Enjoy these images! 👾*
 
-> 🌈*SUBZERO BOT PLUGINS*🏝️`
+> 🌈*ＣＨＡＮＵＫＡ-ＭＤ BOT PLUGINS*🏝️`
 }, { quoted: mek });
 }
 
