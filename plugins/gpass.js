@@ -1,25 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
-
-
-
-
 
 const crypto = require('crypto');
 const { cmd } = require('../command');
@@ -49,7 +27,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         };
 
         const password = generatePassword(length);
-        const message = `🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n *BY SUBZERO MD*`;
+        const message = `🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n *BY ＣＨＡＮＵＫＡ-ＭＤ*`;
 
         // Send initial notification message
         await conn.sendMessage(from, { text: message }, { quoted: mek });
