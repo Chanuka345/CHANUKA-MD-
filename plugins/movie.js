@@ -1,23 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
-
-
 
 const axios = require('axios');
 const { cmd } = require('../command');
@@ -27,7 +7,7 @@ const config = require('../config'); // Ensure your API key is in config
 cmd({
     pattern: "movieinfo",
     desc: "Fetch detailed information about a movie.",
-    category: "utility",
+    category: "movie",
     react: "🎞️",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -46,7 +26,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬SUBZEROV4 MOVIE SERCH🎬*
+*🎬DARK_ADAM-MD MOVIE SERCH🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}
@@ -62,14 +42,14 @@ cmd({
 *ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
 *ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
-> POWERED BY MR FRANK
+> POWERED BY ＣＨＡＮＵＫＡ-ＭＤ
 `;
 
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> CREATED BY KG TECH`
+            caption: `${movieInfo}\n> CREATED BY ＣＨＡＮＵＫＡ-ＭＤ`
         }, { quoted: mek });
     } catch (e) {
         console.error(e);
