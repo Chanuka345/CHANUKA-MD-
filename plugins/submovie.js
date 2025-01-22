@@ -4,7 +4,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 
 cmd({
-    pattern: "movie",
+    pattern: "movie2",
     alias: ["movi","tests"],
     use: '.movie <query>',
     react: "🔎",
@@ -18,7 +18,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 
 let sadas = await fetchJson(`https://darksadas-yt-sinhalasub-search.vercel.app/?q=${q}`)
-const msg = `*🎥 MOVIE SEARCH 🎥*`
+const msg = `*🎥 ＣＨＡＮＵＫＡ-ＭＤ MOVIE SEARCH 🎥*`
 
 if (sadas.data.length < 1) return await conn.sendMessage(from, { text: "🚩 *I couldn't find anything :(*" }, { quoted: mek } )
 
@@ -53,7 +53,7 @@ cmd({
     use: '.moviedl <url>',
     react: "🎥",
     desc: "download movies from sinhalasub.lk",
-    //category: "search",
+    category: "search",
     filename: __filename
 
 },
@@ -91,7 +91,7 @@ if (sadas.length < 1) return await conn.sendMessage(from, { text: "🚩 *I could
 		 
 		 );
         })
- const msg = `   *🎥  MOVIE DOWNLODER 🎥*
+ const msg = `   *🎥 ＣＨＡＮＵＫＡ-ＭＤ MOVIE DOWNLODER 🎥*
  
 * Tιтle   : ${sadas.title}*
 
@@ -124,7 +124,7 @@ cmd({
     react: "🎥",
     alias: ["online", "test", "bot"],
     desc: "Check bot online or no.",
-    //category: "other",
+    category: "other",
     use: '.alive',
     filename: __filename
 },
@@ -148,14 +148,14 @@ const datas = q.split("±")[1]
 	    const da = sadas.downloadLink.split("https://pixeldrain.com/u/")[1]
 const fhd = `https://pixeldrain.com/api/file/${da}`
 
-let mfg = `*DOWNLOAD MOVIE*
+let mfg = `*ＣＨＡＮＵＫＡ-ＭＤ DOWNLOAD MOVIE*
 `
  const buttons = [
         {buttonId:`${prefix}fit ${fhd}±${datas}` , buttonText: {displayText: `Download Now`}, type: 1}
         
       ]
         const buttonMessage = {
-		image: {url: 'https://telegra.ph/file/091fc81528af5881cdf47.jpg'},	
+		image: {url: 'https://pomf2.lain.la/f/p24bk9zh.jpg'},	
             caption: mfg,
             footer: config.FOOTER,
             buttons: buttons,
@@ -208,7 +208,7 @@ cmd({
      
  *Darksadas YT*`,
             mimetype: "video/mp4",
-            fileName: `${datas}🎬DARK SHUTER🎬.mp4`,
+            fileName: `${datas}🎬ＣＨＡＮＵＫＡ-ＭＤ🎬.mp4`,
         };
 
         await conn.sendMessage(config.JID, message);
