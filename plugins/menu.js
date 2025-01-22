@@ -49,7 +49,7 @@ async (conn, mek, m, {
 
 _*🌟 Reply with the Number you want to select*_
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*
 `;
        // Sending the image with caption
           const sentMsg = await conn.sendMessage(from, {
@@ -61,13 +61,13 @@ _*🌟 Reply with the Number you want to select*_
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👨‍💻 𝗗𝗔𝗥𝗞 𝗔𝗗𝗔𝗠 𝗠𝗗 | 𝗧𝗘𝗖𝗛 ジ',
-          newsletterJid: "120363296605464049@newsletter",
+          newsletterName: '🧠 𝗖𝗛𝗔𝗡𝗨𝗞𝗔 𝗠𝗗 | 𝗧𝗘𝗖𝗛 ジ',
+          newsletterJid: "1203632966-05464049@newsletter",
           },
           externalAdReply: {
               title: `DARK_ADAM-MD Menu List`,
-              body: `https://DARK_ADAM-MD-main-web.vercel.app/`,
-              thumbnailUrl: `https://files.catbox.moe/m9rojt.jpg`,
+              body: `https://CHANUKA-MD-main-web.vercel.app/`,
+              thumbnailUrl: `https://pomf2.lain.la/f/p24bk9zh.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -110,7 +110,7 @@ _*🌟 Reply with the Number you want to select*_
 ┝❍ .gjid
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*` }, { quoted: mek });
                         break;
                     case '2': // MAIN MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
