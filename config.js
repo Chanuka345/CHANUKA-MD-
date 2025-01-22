@@ -9,7 +9,7 @@ function convertToBool(text, fault = 'true') {
 
 //--------------------------Mr Frank---------------------------------------
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ENTER YOUR SUBZEFOSESSION HERE",
+SESSION_ID: process.env.SESSION_ID || "3ro2ARZL#5iQTaJFr2qrH5768W1fw0snylkFMfX8wH7gE3C50bVo",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //TRUE OR FALSE
 MODE: process.env.MODE || "public",  // PRIVATE OR PUBLIC
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
