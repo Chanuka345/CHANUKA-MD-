@@ -1,21 +1,3 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
-    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
-    
-    ⭐ＤＥＶＥＬＯＰＥＲ
-     ＭＲ ＦＲＡＮＫ 
-     
-    ⭐ ＭＹ ＴＥＡＭ
-     ＸＥＲＯ ＣＯＤＥＲＳ
-     
-    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
-     https://github.com/ZwSyntax/SUBZERO-MD
-
-© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
-
-╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
-
 
 const config = require('../config');
 const { cmd, commands } = require('../command');
@@ -76,7 +58,7 @@ cmd({
     let uploadedFile = await shannzCdn(filePath);
 
     if (uploadedFile && uploadedFile.status && uploadedFile.result?.url) {
-      const message = `*✅ SUCCESSFUL UPLOAD!*\n\n🔗 *DIRECT LINK:*\n${uploadedFile.result.url}\n\n> POWERED BY SUBZERO`;
+      const message = `*✅ SUCCESSFUL UPLOAD!*\n\n🔗 *DIRECT LINK:*\n${uploadedFile.result.url}\n\n> POWERED BY ＣＨＡＮＵＫＡ-ＭＤ`;
       await conn.sendMessage(from, {
         text: message
       });
