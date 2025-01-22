@@ -54,7 +54,7 @@ const data = search.videos[0];
 const url = data.url; 
 const formatViews = views => views >= 1_000_000_000 ? `${(views / 1_000_000_000).toFixed(1)}B` : views >= 1_000_000 ? `${(views / 1_000_000).toFixed(1)}M` : views >= 1_000 ? `${(views / 1_000).toFixed(1)}K` : views.toString(); 
 let dec = `
-*`📽️ＣＨＡＮＵＫＡ-ＭＤ🎞️`*
+*📽️ＣＨＡＮＵＫＡ-ＭＤ🎞️*
 🤠 *Title:* ${data.title}
 👤 *chenel:* ${data.author.name}
 📝 *Description:* ${data.description}
