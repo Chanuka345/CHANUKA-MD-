@@ -9,7 +9,7 @@
     "restart": "pm2 restart CHANUKA-MD"
   },
   "dependencies": {
-    "@adiwajshing/keyed-db": "^0.2.5",
+    "@adiwajshing/keyed-db": "^0.2.4",
     "@black-king/temp-mail-gen": "^1.0.2",
     "@blackamda/song_video_dl": "^1.2.0",
     "@blackamda/telegram-image-url": "^1.1.0",
