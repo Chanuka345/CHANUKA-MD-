@@ -507,7 +507,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         } else {
             await reply("Failed to fetch GitHub user details. Please check the username.");
             await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-  
+  }
     } catch (e) {
         console.log(e);
         await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
