@@ -326,7 +326,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await reply(`${data.result}`);
         } else {
             await reply("Failed to encode the text.");
-            await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });👨‍💻
+            await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
         }
     } catch (e) {
         console.log(e);
