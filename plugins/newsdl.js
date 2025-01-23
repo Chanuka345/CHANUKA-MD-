@@ -29,14 +29,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             
             // Craft the message
             const message = `            
-🖤DARK_ADAM-MD🖤 𝐈𝐓𝐍 𝐍𝐄𝐖𝐒 📰
+🖤ＣＨＡＮＵＫＡ-ＭＤ🖤 𝐈𝐓𝐍 𝐍𝐄𝐖𝐒 📰
             
 *News Title:* ${title}
 *Date:* ${date}
 *Description:* ${desc}
 *Read More:* ${url}
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : DARK_ADAM-MD 💚*
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ＣＨＡＮＵＫＡ-ＭＤ 💚*
             `;
 
             // Sending the message to the user
@@ -71,14 +71,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             
             // Craft the message to send to the user
             const message = `
-🖤DARK_ADAM-MD🖤 𝐇𝐈𝐑𝐔 𝐍𝐄𝐖𝐒 ⭐
+🖤ＣＨＡＮＵＫＡ-ＭＤ🖤 𝐇𝐈𝐑𝐔 𝐍𝐄𝐖𝐒 ⭐
 
 *Title:* ${title}
 *Date:* ${date}
 *Description:* ${desc}
 *Read More:* ${link}
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©DARK_ADAM-MD 💚*
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©ＣＨＡＮＵＫＡ-ＭＤ 💚*
             `;
 
             // Sending the message along with the image
@@ -112,14 +112,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             
             // Craft the message to send to the user
             const message = `
-🖤DARK_ADAM-MD🖤 𝐋𝐀𝐍𝐊𝐀𝐃𝐄𝐄𝐏𝐀 𝐍𝐄𝐖𝐒 😎
+🖤ＣＨＡＮＵＫＡ-ＭＤ🖤 𝐋𝐀𝐍𝐊𝐀𝐃𝐄𝐄𝐏𝐀 𝐍𝐄𝐖𝐒 😎
  
 *Title:* ${title}
 *Date:* ${date}
 *Description:* ${desc}
 *Read More:* ${url}
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : DARK_ADAM-MD 💚*
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ＣＨＡＮＵＫＡ-ＭＤ 💚*
             `;
 
             // Sending the message along with the image
@@ -156,14 +156,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
             // Crafting the message
             let message = `
-🖤DARK_ADAM-MD🖤 𝐒𝐈𝐘𝐀𝐓𝐇𝐀 𝐍𝐄𝐖𝐒 📄
+🖤ＣＨＡＮＵＫＡ-ＭＤ🖤 𝐒𝐈𝐘𝐀𝐓𝐇𝐀 𝐍𝐄𝐖𝐒 📄
       
 *Title:* ${title}
 *Date:* ${date}
 *Description:* ${desc}
 *Read More:* ${url}
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : DARK_ADAM-MD 💚*
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ＣＨＡＮＵＫＡ-ＭＤ 💚*
             `;
 
             // Send the message, along with an image if available
@@ -204,14 +204,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
             // Crafting the message
             let message = `
-🖤DARK_ADAM-MD🖤 𝐒𝐈𝐑𝐀𝐒𝐀 𝐍𝐄𝐖𝐒 ♦
+🖤ＣＨＡＮＵＫＡ-ＭＤ🖤 𝐒𝐈𝐑𝐀𝐒𝐀 𝐍𝐄𝐖𝐒 ♦
         
 *Title:* ${title}
 *Date:* ${date}
 *Description:* ${desc}
 *Read More:* ${url}
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : DARK_ADAM-MD 💚*
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ＣＨＡＮＵＫＡ-ＭＤ 💚*
             `;
 
             // Send the message, along with an image if available
@@ -253,7 +253,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
             // Crafting the message
             let message = `
-🖤DARK_ADAM-MD🖤 𝐀𝐃𝐀 𝐍𝐄𝐖𝐒 🔊      
+🖤ＣＨＡＮＵＫＡ-ＭＤ🖤 𝐀𝐃𝐀 𝐍𝐄𝐖𝐒 🔊      
 
 *Title:* ${title}
 *Date:* ${date}
@@ -261,7 +261,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *Description:* ${desc}
 *Read More:* ${url}
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : DARK_ADAM-MD 💚*
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ＣＨＡＮＵＫＡ-ＭＤ 💚*
             `;
 
             // Send the message, along with an image if available
@@ -302,14 +302,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
             // Crafting the message
             let message = `
-🖤DARK_ADAM-MD🖤 𝐁𝐁𝐂 𝐍𝐄𝐖𝐒 🌌            
+🖤ＣＨＡＮＵＫＡ-ＭＤ🖤 𝐁𝐁𝐂 𝐍𝐄𝐖𝐒 🌌            
 
 *Title:* ${title}
 *Date:* ${date}
 *Description:* ${desc}
 *Read More:* ${url}
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : DARK_ADAM-MD 💚*
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ＣＨＡＮＵＫＡ-ＭＤ 💚*
             `;
 
             // Send the message, along with an image if available
@@ -349,13 +349,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
             // Crafting the message
             let message = `
-🖤DARK_ADAM-MD🖤 𝐆𝐀𝐆𝐀𝐍𝐀 𝐍𝐄𝐖𝐒 ✈️
+🖤ＣＨＡＮＵＫＡ-ＭＤ🖤 𝐆𝐀𝐆𝐀𝐍𝐀 𝐍𝐄𝐖𝐒 ✈️
    
 *Title:* ${title}
 *Description:* ${desc}
 *Read More:* ${url}
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : DARK_ADAM-MD 💚*
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ＣＨＡＮＵＫＡ-ＭＤ 💚*
             `;
 
             // Send the message, along with an image if available
