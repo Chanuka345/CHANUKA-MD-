@@ -117,9 +117,7 @@
     "@mrnima/tiktok-downloader": "^1.0.1",
     "@mrnima/facebook-downloader": "^1.0.1",
     "mrnima-moviedl": "^1.1.0"
-  }
-}
-    "ytdl-secktor": "latest",
+   "ytdl-secktor": "latest",
     "ytmp3-scrap": "^1.0.1",
     "bing-translate-api": "^4.0.3",
     "ruhend-scraper": "^8.1.0",
@@ -130,8 +128,8 @@
     "@mrnima/tiktok-downloader": "^1.0.1",
     "@mrnima/facebook-downloader": "^1.0.1",
     "mrnima-moviedl": "^1.1.0"
-  }
-  }    "ytdl-secktor": "latest",
+  
+      "ytdl-secktor": "latest",
     "ytmp3-scrap": "^1.0.1",
     "bing-translate-api": "^4.0.3",
     "ruhend-scraper": "^8.1.0",
