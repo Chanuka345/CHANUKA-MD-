@@ -20,7 +20,7 @@ reply(`${e}`)
 
 //============ping=======
 cmd({
-    pattern: "ping",
+    pattern: "ping1",
     react: "🚀",
     alias: ["speed"],
     desc: "Check bot\'s ping",
@@ -31,11 +31,11 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '*⚡️DARK_ADAM-MD⚡️*'  }, { quoted: mek } )
+let ping = await conn.sendMessage(from , { text: '*⚡️ＣＨＡＮＵＫＡ-ＭＤ⚡️*'  }, { quoted: mek } )
 let final = new Date().getTime()
 await conn.sendMessage(from , { text: '*▆*'  }, { quoted: mek } )
 await conn.sendMessage(from , { text: '*▆▆▆*'  }, { quoted: mek } )
-await conn.sendMessage(from , { text: '*▆▆-𝚋𝚘𝚘𝚖-▆▆*'  }, { quoted: mek } )
+await conn.sendMessage(from , { text: '*▆▆▆▆▆▆▆▆*'  }, { quoted: mek } )
 return await conn.edit(ping, '*Pong*\n *' + (final - inital) + ' ms* ' )
 
 } catch (e) {
@@ -46,7 +46,7 @@ console.log(e)
 
 //===========menu========
 cmd({
-    pattern: "menu2",
+    pattern: "allmenu",
     desc: "To get the menu.",
     react: "📜",
     category: "main",
@@ -79,7 +79,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 let madeMenu = `
 👋 𝐇𝐄𝐋𝐋𝐎, ${pushname}!
 
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗗𝗔𝗥𝗞_𝗔𝗗𝗔𝗠-𝗠𝗗 ✨ 
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗖𝗛𝗔𝗡𝗨𝗞𝗔-𝗠𝗗 ✨ 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ʀᴜɴᴛɪᴍᴇ  ${runtime(process.uptime())}
 │◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ = 𝙲𝙷𝙰𝙽𝚄𝙺𝙰-𝙼𝙳
@@ -143,9 +143,9 @@ let madeMenu = `
  ${menu.tools}
 ╰───────────●●►
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ DARK_ADAM-MD*`
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*`
 
-return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/m9rojt.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://pomf2.lain.la/f/p24bk9zh.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`𝔼𝕣𝕣𝕣𝕠𝕣`)
