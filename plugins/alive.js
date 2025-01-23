@@ -46,7 +46,7 @@ console.log(e)
 
 //===========menu========
 cmd({
-    pattern: "allmenu",
+    pattern: "menu2",
     desc: "To get the menu.",
     react: "📜",
     category: "main",
@@ -66,6 +66,7 @@ ai: '',
 tools: '',
 search: '',
 fun: '',
+news: '',
 voice: '',
 other: ''
 };
@@ -141,6 +142,11 @@ let madeMenu = `
  🛠️ *𝐓𝐨𝐨𝐥𝐬 𝐌𝐞𝐧𝐮*
   ───────
  ${menu.tools}
+╰───────────●●►
+╭──────────●●►
+ 🛠️ *𝐍𝐞𝐰𝐬 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.news}
 ╰───────────●●►
 
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*`
