@@ -6,7 +6,7 @@ const os = require("os")
 const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
-    pattern: "ping2",
+    pattern: "ping",
     react: "🤖",
     alias: ["speed"],
     desc: "Check bot\'s ping",
@@ -28,7 +28,7 @@ l(e)
 })
 
 cmd({
-    pattern: "ping3",
+    pattern: "ping2",
     react: "🚀",
     alias: ["speed"],
     desc: "Check bot\'s ping",
