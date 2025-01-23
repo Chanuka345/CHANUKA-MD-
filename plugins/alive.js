@@ -1,8 +1,7 @@
 const config = require('../config')
-const { cmd, commands } = require('../command')
+const {cmd , commands} = require('../command')
 const os = require("os")
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('../lib/functions')
-
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
     pattern: "alive",
     react: "⏳",
@@ -10,13 +9,13 @@ cmd({
     category: "main",
     filename: __filename
 },
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins }) => {
-    try {
-        return await conn.sendMessage(from, { image: { url: config.ALIVE_IMG }, caption: config.ALIVE_MSG }, { quoted: mek })
-    } catch (e) {
-        console.log(e)
-        reply(`${e}`)
-    }
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
 })
 
 //============ping=======
@@ -24,59 +23,60 @@ cmd({
     pattern: "ping",
     react: "🚀",
     alias: ["speed"],
-    desc: "Check bot's ping",
+    desc: "Check bot\'s ping",
     category: "main",
     use: '.ping',
     filename: __filename
 },
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins }) => {
-    try {
-        var initial = new Date().getTime();
-        let ping = await conn.sendMessage(from, { text: '*⚡️ＣＨＡＮＵＫＡ-ＭＤ⚡️*' }, { quoted: mek })
-        let final = new Date().getTime()
-        await conn.sendMessage(from, { text: '*▆*' }, { quoted: mek })
-        await conn.sendMessage(from, { text: '*▆▆▆*' }, { quoted: mek })
-        await conn.sendMessage(from, { text: '*▆▆▆▆*' }, { quoted: mek })
-        return await conn.edit(ping, '*Pong*\n *' + (final - initial) + ' ms* ')
-    } catch (e) {
-        reply(`${e}`)
-        console.log(e)
-    }
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+var inital = new Date().getTime();
+let ping = await conn.sendMessage(from , { text: '*⚡️DARK_ADAM-MD⚡️*'  }, { quoted: mek } )
+let final = new Date().getTime()
+await conn.sendMessage(from , { text: '*▆*'  }, { quoted: mek } )
+await conn.sendMessage(from , { text: '*▆▆▆*'  }, { quoted: mek } )
+await conn.sendMessage(from , { text: '*▆▆-𝚋𝚘𝚘𝚖-▆▆*'  }, { quoted: mek } )
+return await conn.edit(ping, '*Pong*\n *' + (final - inital) + ' ms* ' )
+
+} catch (e) {
+reply(`${e}`)
+console.log(e)
+}
 })
 
 //===========menu========
 cmd({
-    pattern: "allmenu",
+    pattern: "menu2",
     desc: "To get the menu.",
     react: "📜",
     category: "main",
     filename: __filename
 },
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins }) => {
-    try {
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+    
+let menu = {
+main: '',
+download: '',
+group: '',
+owner: '',
+movie: '',
+convert: '',
+ai: '',
+tools: '',
+search: '',
+fun: '',
+voice: '',
+other: ''
+};
 
-        let menu = {
-            main: '',
-            download: '',
-            group: '',
-            owner: '',
-            movie: '',
-            convert: '',
-            ai: '',
-            tools: '',
-            search: '',
-            fun: '',
-            voice: '',
-            other: ''
-        };
+for (let i = 0; i < commands.length; i++) {
+if (commands[i].pattern && !commands[i].dontAddCommandList) {
+menu[commands[i].category] += `.${commands[i].pattern}\n`;
+ }
+}
 
-        for (let i = 0; i < commands.length; i++) {
-            if (commands[i].pattern && !commands[i].dontAddCommandList) {
-                menu[commands[i].category] += `.${commands[i].pattern}\n`;
-            }
-        }
-
-        let madeMenu = `
+let madeMenu = `
 👋 𝐇𝐄𝐋𝐋𝐎, ${pushname}!
 
 ✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗗𝗔𝗥𝗞_𝗔𝗗𝗔𝗠-𝗠𝗗 ✨ 
@@ -86,7 +86,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ = 94741469245
 ╰──────────●●►
 ╭──────────●●►
-
+ 
 ╭──────────●●►
  📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
   ───────
@@ -143,11 +143,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
  ${menu.tools}
 ╰───────────●●►
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*`
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ DARK_ADAM-MD*`
 
-        return await conn.sendMessage(from, { image: { url: `https://pomf2.lain.la/f/p24bk9zh.jpg` }, caption: madeMenu }, { quoted: mek })
-    } catch (e) {
-        console.log(e)
-        reply(`𝔼𝕣𝕣𝕣𝕠𝕣`)
-    }
+return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/m9rojt.jpg`},caption:madeMenu},{quoted: mek})
+}catch(e){
+console.log(e)
+reply(`𝔼𝕣𝕣𝕣𝕠𝕣`)
+}
 })
