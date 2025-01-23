@@ -393,7 +393,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                           `*Created At:* ${new Date(packageInfo.createdAt).toLocaleString()}\n` +
                           `*Updated At:* ${new Date(packageInfo.updatedAt).toLocaleString()}\n` +
                           `*Maintainers:* ${packageInfo.maintainers.join(', ')}\n\n` +
-                          `*Latest Versions:*\n${packageInfo.versions.slice(-5).join(", ")}\n*> DARK_ADAM-MD ®*`;
+                          `*Latest Versions:*\n${packageInfo.versions.slice(-5).join(", ")}\n*> ＣＨＡＮＵＫＡ-ＭＤ*`;
 
             await reply(message);
         } else {
@@ -427,7 +427,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             let ipInfo = data.data;
             let message = `*IP Address:* ${ipInfo.ip}\n` +
                           `*Latitude:* ${ipInfo.location.latitude}\n` +
-                          `*Longitude:* ${ipInfo.location.longitude}\n*> SHADOW MD ®*`;
+                          `*Longitude:* ${ipInfo.location.longitude}\n*> ＣＨＡＮＵＫＡ-ＭＤ*`;
 
             await reply(message);
         } else {
@@ -464,7 +464,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                           `*🚀 Biography:* ${userInfo.biography}\n` +
                           `*🚀 Posts:* ${userInfo.posts}\n` +
                           `*🚀 Followers:* ${userInfo.followers}\n` +
-                          `*🚀 Following:* ${userInfo.following}\n*DARK_ADAM-MD-BOT*`;
+                          `*🚀 Following:* ${userInfo.following}\nＣＨＡＮＵＫＡ-ＭＤ*`;
             await conn.sendMessage(from, { image: { url: userInfo.profile_picture }, caption: caption }, { quoted: mek });
         } else {
             await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
@@ -542,7 +542,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             return password;
         };
         const password = generatePassword(length);
-        const message = `Please find your generated password below:\n\n> *> DARK_ADAM-MD ®*`;
+        const message = `Please find your generated password below:\n\n> *> ＣＨＡＮＵＫＡ-ＭＤ*`;
         await conn.sendMessage(from, { text: message }, { quoted: mek });
         await conn.sendMessage(from, { text: password }, { quoted: mek });
     } catch (e) {
@@ -590,7 +590,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             '⚠️ *Note:* All actions are for demonstration purposes only.',
             '⚠️ *Reminder:* Ethical hacking is the only way to ensure security.',
             '',
-            '> *GROUP HIJACT COMPLETE BY DARK_ADAM-MD☣*'
+            '> *GROUP HIJACT COMPLETE BY ＣＨＡＮＵＫＡ-ＭＤ☣*'
         ];
 
         for (const line of steps) {
