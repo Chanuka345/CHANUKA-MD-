@@ -6,9 +6,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 
-//--------------------------Mr Frank---------------------------------------
+//--------------------------𝗖𝗛𝗔𝗡𝗨𝗞𝗔-𝗠𝗗---------------------------------------
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "IesxAZDR#k2SB3AvLoGJNCrUj9c2KT36bFOK-1AlH3_M8mZ53ZkU",
+SESSION_ID: process.env.SESSION_ID || "7JNHWB4Y#se7ZfuEtP0HpsbbvCrA41bc9zQfyy_YLx7oPWMhqKH4",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //TRUE OR FALSE
 MODE: process.env.MODE || "public",  // PRIVATE OR PUBLIC
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
@@ -27,4 +27,4 @@ BOT_NAME: process.env.BOT_NAME || "『 ＣＨＡＮＵＫＡ - ＭＤ 』",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
 
-//--------------MADE BY MR FRANK 2024 DEC---------------->-
+//--------------MADE BY 𝗖𝗛𝗔𝗡𝗨𝗞𝗔 𝗠𝗔𝗫---------------->-
