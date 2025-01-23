@@ -42,9 +42,6 @@ async (conn, mek, m, {
 *├ 12 • TOOLS*
 *├ 13 • LOGO*
 *╰╼╼╼╼╼╼╼╼╼╼*
-
-╭────────❍──────❍❍➣
-┝❍ *TOTAL COMMANDS : 182*
 ╰────────❍──────❍❍➣
 
 _*🌟 Reply with the Number you want to select*_
@@ -62,7 +59,7 @@ _*🌟 Reply with the Number you want to select*_
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
           newsletterName: '🧠 𝗖𝗛𝗔𝗡𝗨𝗞𝗔 𝗠𝗗 | 𝗧𝗘𝗖𝗛 ジ',
-          newsletterJid: "https://whatsapp.com/channel/0029Vb35nfSDzgT59gD4SU11",
+          newsletterJid: "12036329660-5464049@newsletter",
           },
           externalAdReply: {
               title: `ＣＨＡＮＵＫＡ-ＭＤ Menu List`,
@@ -96,46 +93,29 @@ _*🌟 Reply with the Number you want to select*_
 *◈──❮ OWNER MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .join
-┝❍ .restart
+┝❍ .updatecmd
 ┝❍ .shutdown
 ┝❍ .broadcast
 ┝❍ .setpp
 ┝❍ .block
 ┝❍ .unblock
 ┝❍ .clearchats
-┝❍ .startnews
-┝❍ .stopnews
 ┝❍ .jid
 ┝❍ .gjid
+┝❍ .restart
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                         break;
                     case '2': // MAIN MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ CONVERT MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍  .convert
-┝❍ .sticker2
-┝❍ .tts
-┝❍ .qmake
-┝❍ .readmore
 ┝❍ .sticker
-┝❍ .vv
-┝❍ .circle
-┝❍ .crop
-┝❍ .round
-┝❍ .toaudio
-┝❍ .toanime
-┝❍ .currency
-┝❍ .url
-┝❍ .img2url
-┝❍ .trt
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                         break;
                     case '3': // GROUP MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
@@ -143,127 +123,102 @@ _*🌟 Reply with the Number you want to select*_
 
 ╭───────────────❍❍➣
 ┝❍ .ai
-┝❍ .bing
-┝❍ .copilot
-┝❍ .blackbox
-┝❍ .bingimgai
-┝❍ .gemini
-┝❍ .gpt4
-┝❍ .laland
-┝❍ .obfus
-┝❍ .prodia
-┝❍ .prodia2
-┝❍ .texttoimg1
-┝❍ .texttoimg2
-┝❍ .texttoimg3
-┝❍ .aemtv1
-┝❍ .aemtv2
-┝❍ .aemtv3
-┝❍ .aemtv4
-┝❍ .aemtv5
-┝❍ .aemtv6
-┝❍ .aemtv7
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                         break;
                     case '4': // OWNER MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ SEARCH MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .lyric 
+┝❍ .infodl
 ┝❍ .yts
-┝❍ .srepo
-┝❍ .weather1
-┝❍ .tiktoksearch
-┝❍ .horo
-┝❍ .google
-┝❍ .couplepp
-┝❍ .snumber
-┝❍ .weather
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                         break;
                     case '5': // CONVERT MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ DOWNLOAD MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .song2
-┝❍ .video
+┝❍ .Tiktok 
 ┝❍ .fb
-┝❍ .tt
-┝❍ .gdrive
-┝❍ .apkdl
-┝❍ .twitter
+┝❍ .twitter 
+┝❍ .mediafire
+┝❍ .ig
 ┝❍ .apk
-┝❍ .img
-┝❍ .mfire
-┝❍ .scloud
+┝❍ .gdrive
 ┝❍ .song
-┝❍ .xnxx
-┝❍ .xvideo
-┝❍ .mega
-┝❍ .gitclone
+┝❍ .song2
+┝❍ .video 
+┝❍ .video2
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                         break;
                     case '6': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ MAIN MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍  .runtime
-┝❍ .alive
-┝❍ .allmenu
-┝❍ .owner
-┝❍ .support
-┝❍ .repo
 ┝❍ .about
-┝❍ .system
+┝❍ .alive
 ┝❍ .ping
-┝❍ .allmenu
+┝❍ .menu2
+┝❍ .anime
+┝❍ .disappear
+┝❍ .senddm
 ┝❍ .menu
+┝❍ .menu3
+┝❍ .owner
+┝❍ .ping2
+┝❍ .ping3
+┝❍ .script
+┝❍ .settings
+┝❍ .system
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                         break;
                     case '7': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ GROUP MENU ❯──◈*
 
 ╭───────────────❍❍➣
+┝❍ .delete
+┝❍ .joinrequests
+┝❍ .allreq
 ┝❍ .mute
 ┝❍ .unmute
+┝❍ .lockgs
+┝❍ .unlockgs
+┝❍ .leave
+┝❍ .updategname
+┝❍ .updategdesc
+┝❍ .join
+┝❍ .invite
+┝❍ .revoke
+┝❍ .kick
 ┝❍ .promote
 ┝❍ .demote
-┝❍ .del
+┝❍ .tagall
+┝❍ .hidetag
+┝❍ .taggp
+┝❍ .ginfo
+┝❍ .kickall
+┝❍ .opentime
+┝❍ .closetime
+┝❍ .tagadmin
+┝❍ .mute
+┝❍ .unmute
 ┝❍ .add
 ┝❍ .setgoodbye
 ┝❍ .setwelcome
-┝❍ .admins
-┝❍ .groupdesc
-┝❍ .groupinfo
-┝❍ .grouplink
-┝❍ .gname
-┝❍ .setsubject
-┝❍ .tagall
-┝❍ .requests
-┝❍ .accept
-┝❍ .reject
-┝❍ .hidetag
-┝❍ .kick
-┝❍ .unlock
-┝❍ .lock
-┝❍ .approve
-┝❍ .poll
-┝❍ .getpic
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });            
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });            
                         break;
                     case '8': // SEARCH MENU
                        await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
@@ -271,39 +226,35 @@ _*🌟 Reply with the Number you want to select*_
 
 ╭───────────────❍❍➣
 ┝❍ .animegirl
+┝❍ .animegirl1
+┝❍ .animegirl2
+┝❍ .animegirl3
+┝❍ .animegirl4
+┝❍ .animegirl5
+┝❍ .loli
 ┝❍ .dog
 ┝❍ .fact
-┝❍ .hack
-┝❍ .insult
 ┝❍ .joke
+┝❍ .hack
 ┝❍ .quote
-┝❍ .ronaldo
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                          break;
                     case '9': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ MOVIE MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .movie
-┝❍ .jshare (ꜱɪɴʜᴀʟᴀ ꜱᴜʙ ᴍᴏᴠɪᴇ ᴊɪᴅ ꜱʜᴀʀᴇ)
-┝❍ .uploadme
-┝❍ .ytsmx
-┝❍ .uploadmovie
-┝❍ .moviekv
-┝❍ .uploadtv
-┝❍ .uploadtvm
-┝❍ .uploadmoviem
-┝❍ .uploadzip
-┝❍ .uploadzipn
-┝❍ .uploadzipfile
-┝❍ .imdb
-┝❍ .gdmovie
+┝❍ .baiscope
+┝❍ .ginisisila
+┝❍ .sinhalasub
+┝❍ .movieinfo
+┝❍ .sub
+┝❍ .movie2
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
 
                     break;                       
                     case '10': // SEARCH MENU
@@ -311,22 +262,13 @@ _*🌟 Reply with the Number you want to select*_
 *◈───❮ OTHER MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .anime1
-┝❍ .anime2
-┝❍ .anime3
-┝❍ .anime4
-┝❍ .anime5
-┝❍ .loli
-┝❍ .waifu
-┝❍ .neko
-┝❍ .megumin
-┝❍ .maid
-┝❍ .awoo
 ┝❍ .define
-┝❍ .githubstalk
+┝❍ .github
 ┝❍ .gpass
-┝❍ .wiki
-┝❍ .ss
+┝❍ .git
+┝❍ .mn
+┝❍ .trt
+┝❍ .weather
 ╰───────────────❍❍➣` }, { quoted: mek });
                         break;
                     case '11': // SEARCH MENU
@@ -334,19 +276,17 @@ _*🌟 Reply with the Number you want to select*_
 *◈───❮ NEWS MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .hirunews
-┝❍ .sirasanews
-┝❍ .derananews
-┝❍ .lankadeepanews
-┝❍ .bbcnews
-┝❍ .ios
-┝❍ .esananews
-┝❍ .technews
-┝❍ .wabeta
-┝❍ .news
+┝❍ .hiru
+┝❍ .sirasa
+┝❍ .ada
+┝❍ .lankadeepa
+┝❍ .bbc
+┝❍ .itn
+┝❍ .siyatha
+┝❍ .gagana
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                         break;
                     case '12': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
@@ -372,21 +312,21 @@ _*🌟 Reply with the Number you want to select*_
 ┝❍ .githubuser
 ┝❍ .password
 ┝❍ .hijact
-┝❍ .antispam
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                         break;
                     case '13': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ LOGO MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .logo1
-┝❍ .logo2
+┝❍ .
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴀᴅᴀᴍᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
                     break;
                     default:
                         responseText = "❌ Invalid option. Please enter a valid number (1-6).";
