@@ -2,7 +2,7 @@ const { cmd, commands } = require('../command');
 const config = require('../config');
 const os = require('os');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, fetchJson , runtime ,sleep } = require('../lib/functions')
-const imageUrl = 'https://files.catbox.moe/m9rojt.jpg';
+const imageUrl = 'https://pomf2.lain.la/f/p24bk9zh.jpg';
 
 //menu cmd
 cmd({
@@ -62,10 +62,10 @@ _*🌟 Reply with the Number you want to select*_
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
           newsletterName: '🧠 𝗖𝗛𝗔𝗡𝗨𝗞𝗔 𝗠𝗗 | 𝗧𝗘𝗖𝗛 ジ',
-          newsletterJid: "1203632966-05464049@newsletter",
+          newsletterJid: "https://whatsapp.com/channel/0029Vb35nfSDzgT59gD4SU11",
           },
           externalAdReply: {
-              title: `DARK_ADAM-MD Menu List`,
+              title: `ＣＨＡＮＵＫＡ-ＭＤ Menu List`,
               body: `https://CHANUKA-MD-main-web.vercel.app/`,
               thumbnailUrl: `https://pomf2.lain.la/f/p24bk9zh.jpg`,
               sourceUrl: ``,
