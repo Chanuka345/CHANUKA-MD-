@@ -18,31 +18,7 @@ reply(`${e}`)
 }
 })
 
-//============ping=======
-cmd({
-    pattern: "ping1",
-    react: "🚀",
-    alias: ["speed"],
-    desc: "Check bot\'s ping",
-    category: "main",
-    use: '.ping',
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '*⚡️ＣＨＡＮＵＫＡ-ＭＤ⚡️*'  }, { quoted: mek } )
-let final = new Date().getTime()
-await conn.sendMessage(from , { text: '*▆*'  }, { quoted: mek } )
-await conn.sendMessage(from , { text: '*▆▆▆*'  }, { quoted: mek } )
-await conn.sendMessage(from , { text: '*▆▆▆▆▆▆▆▆*'  }, { quoted: mek } )
-return await conn.edit(ping, '*Pong*\n *' + (final - inital) + ' ms* ' )
 
-} catch (e) {
-reply(`${e}`)
-console.log(e)
-}
-})
 
 //===========menu========
 cmd({
