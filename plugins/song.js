@@ -1,10 +1,9 @@
-
-const { cmd, commands } = require('../command');
-const { fetchJson } = require('../lib/functions');
-const yts = require('yt-search');
-const domain = `https://manu-ofc-api-site-6bfcbe0e18f6.herokuapp.com`;
-const api_key = `Manul-Ofc-Song-Dl-Key-9`;
-
+const {cmd , commands} = require('../command')
+const fetch = require('node-fetch')
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
+const axios = require('axios');
+const yts = require("yt-search")
+const API = `https://manu-ofc-api-site-6bfcbe0e18f6.herokuapp.com/ytmp3-dl-fixed?url=`
 cmd({
     pattern: "song",
     alias: ["audio"],
@@ -16,13 +15,16 @@ cmd({
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
+      
+        
         if (!q) return reply('Please provide a title.');
+
         const search = await yts(q);
         const data = search.videos[0];
         const url = data.url;
 
         let desc = `*🎵 𝐘𝐓 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 🎵*
-        
+      
 > *\`➤ Title\` :* ${data.title}
 
 > *\`➤ Views\` :* ${data.views}
@@ -33,12 +35,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 > *\`➤ AGO\`:* ${data.ago}
 
-*◄❪ Reply This Message With Nambars ❫►*
+1. Audio 
+2. Document
 
-1. Audio 🎧
-2. Document 🗂️
-
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©ＣＨＡＮＵＫＡ-ＭＤ*`;
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝗖𝗛𝗔𝗡𝗨𝗞𝗔-𝗠𝗗`;
 
         const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
@@ -51,34 +51,43 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             if (msg.message.extendedTextMessage.contextInfo && msg.message.extendedTextMessage.contextInfo.stanzaId === vv.key.id) {
                 switch (selectedOption) {
                     case '1':
-    const response = await fetchJson(`${domain}/api/ytmp3?videoUrl=${data.url}&apikey=${api_key}`);
-    
-    const downloadUrl = response.data.dl_link;
+                        // Fetch Audio from API
+                        const audioData = await fetch(`${API}${data.url}`);
+                        const audioJson = await audioData.json();
+                        const audioDownloadUrl = audioJson.data[2].downloadUrl;  // Assuming you want 128kbps quality
 
-//============Send Audio======================
-await conn.sendMessage(from,{audio:{url: downloadUrl },mimetype:"audio/mpeg",caption :"> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©DARK_ADAM-MD 💚*"},{quoted:mek})
+                        // Send Audio
+                        await conn.sendMessage(from, { 
+                            audio: { url: audioDownloadUrl }, 
+                            mimetype: "audio/mpeg", 
+                            caption: "> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝗖𝗛𝗔𝗡𝗨𝗞𝗔-𝗠𝗗" 
+                        }, { quoted: mek });
                         break;
        
-                    case '2':               
-const responsex = await fetchJson(`${domain}/api/ytmp3?videoUrl=${data.url}&apikey=${api_key}`);
-    
-    const downloadUrlx = responsex.data.dl_link;
+                    case '2':
+                        // Fetch Audio from API
+                        const docData = await fetch(`${API}${data.url}`);
+                        const docJson = await docData.json();
+                        const docDownloadUrl = docJson.data[2].downloadUrl;  // Assuming you want 128kbps quality
 
-//=============Send Document=================
-await conn.sendMessage(from,{document:{url: downloadUrlx },mimetype:"audio/mpeg",fileName: data.title + ".mp3" ,caption :"> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©DARK_ADAM-MD 💚*"},{quoted:mek})
+                        // Send Document
+                        await conn.sendMessage(from, { 
+                            document: { url: docDownloadUrl },
+                            mimetype: "audio/mpeg", 
+                            fileName: `${data.title}.mp3`, 
+                            caption: "> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝗖𝗛𝗔𝗡𝗨𝗞𝗔-𝗠𝗗" 
+                        }, { quoted: mek });
                         break;
  
                     default:
                         reply("Invalid option. Please select a valid option 💗");
                 }
-
             }
         });
 
     } catch (e) {
         console.error(e);
-        await conn.sendMessage(from, { react: { text: '❌', key: mek.key } })
+        await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
         reply('An error occurred while processing your request.');
     }
 });
-//=============©DARK_ADAM-MD 💚==========
