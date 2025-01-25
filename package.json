@@ -1,12 +1,12 @@
 {
-  "name": "SUBZERO-MD",
+  "name": "ＣＨＡＮＵＫＡ-ＭＤ",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SUBZERO-MD",
-    "stop": "pm2 stop SUBZERO-MD",
-    "restart": "pm2 restart SUBZERO-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ＣＨＡＮＵＫＡ-ＭＤ",
+    "stop": "pm2 stop ＣＨＡＮＵＫＡ-ＭＤ",
+    "restart": "pm2 restart ＣＨＡＮＵＫＡ-ＭＤ"
   },
   "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
