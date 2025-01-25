@@ -18,7 +18,31 @@ reply(`${e}`)
 }
 })
 
+//============ping=======
+cmd({
+    pattern: "ping",
+    react: "🚀",
+    alias: ["speed"],
+    desc: "Check bot\'s ping",
+    category: "main",
+    use: '.ping',
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+var inital = new Date().getTime();
+let ping = await conn.sendMessage(from , { text: '*⚡️DARK_ADAM-MD⚡️*'  }, { quoted: mek } )
+let final = new Date().getTime()
+await conn.sendMessage(from , { text: '*▆*'  }, { quoted: mek } )
+await conn.sendMessage(from , { text: '*▆▆▆*'  }, { quoted: mek } )
+await conn.sendMessage(from , { text: '*▆▆-𝚋𝚘𝚘𝚖-▆▆*'  }, { quoted: mek } )
+return await conn.edit(ping, '*Pong*\n *' + (final - inital) + ' ms* ' )
 
+} catch (e) {
+reply(`${e}`)
+console.log(e)
+}
+})
 
 //===========menu========
 cmd({
@@ -42,7 +66,6 @@ ai: '',
 tools: '',
 search: '',
 fun: '',
-news: '',
 voice: '',
 other: ''
 };
@@ -56,7 +79,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 let madeMenu = `
 👋 𝐇𝐄𝐋𝐋𝐎, ${pushname}!
 
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗖𝗛𝗔𝗡𝗨𝗞𝗔-𝗠𝗗 ✨ 
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗗𝗔𝗥𝗞_𝗔𝗗𝗔𝗠-𝗠𝗗 ✨ 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ʀᴜɴᴛɪᴍᴇ  ${runtime(process.uptime())}
 │◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ = 𝙲𝙷𝙰𝙽𝚄𝙺𝙰-𝙼𝙳
@@ -119,15 +142,10 @@ let madeMenu = `
   ───────
  ${menu.tools}
 ╰───────────●●►
-╭──────────●●►
- 🛠️ *𝐍𝐞𝐰𝐬 𝐌𝐞𝐧𝐮*
-  ───────
- ${menu.news}
-╰───────────●●►
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*`
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ DARK_ADAM-MD*`
 
-return await conn.sendMessage(from,{image: {url: `https://pomf2.lain.la/f/p24bk9zh.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/m9rojt.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`𝔼𝕣𝕣𝕣𝕠𝕣`)
