@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 
 //--------------------------𝗖𝗛𝗔𝗡𝗨𝗞𝗔-𝗠𝗗---------------------------------------
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "gLFAUYjK#27E_jm9W4E7jDZz2mPOIierzKQgdE7LzC5oQ2hjY678",
+SESSION_ID: process.env.SESSION_ID || "4S0FiRTQ#clNd7iLJOjXyMAXUeMmdCkk__YERMG8-eWDutlrTyzk",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //TRUE OR FALSE
 MODE: process.env.MODE || "public",  // PRIVATE OR PUBLIC
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
