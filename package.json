@@ -1,12 +1,12 @@
 {
-  "name": "DARK_ADAM-MD",
+  "name": "𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DARK_ADAM-MD",
-    "stop": "pm2 stop DARK_ADAM-MD",
-    "restart": "pm2 restart DARK_ADAM-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿",
+    "stop": "pm2 stop 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿",
+    "restart": "pm2 restart 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
