@@ -3,7 +3,7 @@ const {cmd , commands} = require('../command')
 const os = require("os")
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
-    pattern: "alive2",
+    pattern: "alive",
     react: "⏳",
     desc: "Check bot online or no.",
     category: "main",
@@ -143,9 +143,9 @@ let madeMenu = `
  ${menu.tools}
 ╰───────────●●►
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ DARK_ADAM-MD*`
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿*`
 
-return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/m9rojt.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://pomf2.lain.la/f/mkioffwj.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`𝔼𝕣𝕣𝕣𝕠𝕣`)
