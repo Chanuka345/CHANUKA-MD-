@@ -3,7 +3,7 @@ const {cmd , commands} = require('../command')
 const os = require("os")
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
-    pattern: "alive",
+    pattern: "alive2",
     react: "⏳",
     desc: "Check bot online or no.",
     category: "main",
@@ -31,11 +31,11 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '*⚡️DARK_ADAM-MD⚡️*'  }, { quoted: mek } )
+let ping = await conn.sendMessage(from , { text: '*⚡️𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿⚡️*'  }, { quoted: mek } )
 let final = new Date().getTime()
 await conn.sendMessage(from , { text: '*▆*'  }, { quoted: mek } )
 await conn.sendMessage(from , { text: '*▆▆▆*'  }, { quoted: mek } )
-await conn.sendMessage(from , { text: '*▆▆-𝚋𝚘𝚘𝚖-▆▆*'  }, { quoted: mek } )
+await conn.sendMessage(from , { text: '*𝚕𝚘𝚏𝚒𝚗𝚐....*'  }, { quoted: mek } )
 return await conn.edit(ping, '*Pong*\n *' + (final - inital) + ' ms* ' )
 
 } catch (e) {
@@ -79,7 +79,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 let madeMenu = `
 👋 𝐇𝐄𝐋𝐋𝐎, ${pushname}!
 
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗗𝗔𝗥𝗞_𝗔𝗗𝗔𝗠-𝗠𝗗 ✨ 
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿 ✨ 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ʀᴜɴᴛɪᴍᴇ  ${runtime(process.uptime())}
 │◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ = 𝙲𝙷𝙰𝙽𝚄𝙺𝙰-𝙼𝙳
