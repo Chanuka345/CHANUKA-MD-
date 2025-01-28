@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94718913389']
+const ownerNumber = ['94741469245']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting wa bot 🧬...");
+console.log("Connecting 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿 🥵...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `Bot Name connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿 connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://pomf2.lain.la/f/uzu4feg.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://pomf2.lain.la/f/29usw4n.jpg` }, caption: up })
 
 }
 })
@@ -148,9 +148,9 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             
 //========OwnerReact========            
          
-if(senderNumber.includes("947189133889")){
+if(senderNumber.includes("94741469245")){
 if(isReact) return
-m.react("💗")
+m.react("👨‍💻")
 }       
 
                
@@ -188,7 +188,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, bot started✅");
+res.send("𝙃𝙚𝙮, 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿 𝘽𝙤𝙩 𝙎𝙩𝙖𝙧𝙩𝙚𝙙 ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
