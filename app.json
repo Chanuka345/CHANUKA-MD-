@@ -1,9 +1,9 @@
 {
   "name": "❄️CHANUKA-MD❄️",
-  "description": "BOT BY MR FRANK",
-  "logo": "https://pomf2.lain.la/f/u5svijwh.jpg",
+  "description": "whatsapp bot",
+  "logo": "https://pomf2.lain.la/f/f0thr03.jpg",
   "keywords": ["bot"],
-  "success_url": "https://github.com/mrfrank-ofc/CHANUKA-MD",
+  "success_url": "https://github.com/mrchanuka-ofc/CHANUKA-MD",
 
     "stack": "container",
   "env": {
@@ -16,13 +16,13 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://pomf2.lain.la/f/u5svijwh.jpg"
+      "value": "https://pomf2.lain.la/f/mkioffwj.jpg"
     }, 
     
     "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": true,
-      "value": "HI DEAR CHANUKA-MD ONLINE.!!♻️"
+      "value": "HI ළමයි CHANUKA-MD ONLINE.!!♻️"
     },
     
     "PREFIX": {
@@ -40,7 +40,7 @@
     "AUTO_VOICE": {
       "description": "Make it true if you want bot auto voice.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
 
     "AUTO_REPLY": {
@@ -52,7 +52,7 @@
     "AUTO_STICKER": {
       "description": "Make it true if you want bot auto sticker.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
 
     "AUTO_READ_STATUS": {
@@ -95,7 +95,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "『 ＳＵＢＺＥＲＯ - ＭＤ』"
+      "value": "『 𝘾𝙃𝘼𝙉𝙐𝙆𝘼-𝙈𝘿 』"
     }, 
 
     "HEART_REACT": {
