@@ -71,7 +71,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `ＣＨＡＮＵＫＡ-ＭＤ connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://pomf2.lain.la/f/p24bk9zh.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://pomf2.lain.la/f/29usw4n.jpg` }, caption: up })
 
 }
 })
